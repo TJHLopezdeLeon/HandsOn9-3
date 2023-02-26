@@ -29,7 +29,7 @@ function handleSubmit() {
         evt.returnValue = false;
     }
     processCookie();
-    document.getElementsByTagName("from")[0].submit();
+    document.getElementsByTagName("form")[0].submit();
 }
 
 function createEventListener() {
